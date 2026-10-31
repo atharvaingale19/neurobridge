@@ -1,0 +1,27 @@
+{
+    "dataset": "BCI Competition IV 2a",
+    "subject_count": 9,
+    "sampling_frequency": 250,
+    "channels": 22,
+    "experiments": {
+        "csp_lda": {
+            "balanced_accuracy": 0.8681,
+            "macro_f1": 0.87
+        },
+        "eegnet": {
+            "balanced_accuracy": 0.75,
+            "macro_f1": 0.75
+        },
+        "cross_subject": {
+            "mean_accuracy": 0.6435,
+            "std": 0.1615
+        }
+    },
+    "calibration": {
+        "zero_shot": 0.6364,
+        "five_trials": 0.6364,
+        "ten_trials": 0.6364,
+        "twenty_trials": 0.7273,
+        "subject_only": 0.8182
+    }
+}
